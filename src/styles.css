@@ -1,0 +1,77 @@
+@import 'ngx-toastr/toastr';
+
+/* Custom popup styles */
+.popup-toast {
+  background: white !important;
+  color: #333 !important;
+  border-radius: 8px !important;
+  padding: 16px 24px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  min-width: 320px !important;
+  max-width: 480px !important;
+  text-align: center !important;
+}
+
+.toast-center-center {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.popup-toast .toast-close-button {
+  position: absolute !important;
+  right: 8px !important;
+  top: 8px !important;
+  color: #666 !important;
+  opacity: 1 !important;
+  font-size: 18px !important;
+}
+
+.popup-toast .toast-message {
+  color: #333 !important;
+  font-size: 14px !important;
+  margin-top: 4px !important;
+  font-weight: 500 !important;
+}
+
+/* Optional: Add a semi-transparent overlay behind the popup */
+.toast-container {
+  pointer-events: auto !important;
+}
+
+.toast-container.toast-center-center {
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  pointer-events: auto !important;
+}
+
+/* Custom overlay toast styles */
+.overlay-toast {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border-radius: 0 !important;
+  padding: 12px !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+}
+
+.toast-top-full-width {
+  top: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+}
+
+.toast-message {
+  color: white !important;
+}
+
+/* Add your global styles here */ 
