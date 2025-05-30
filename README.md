@@ -34,7 +34,7 @@ A modern Angular-based frontend application for managing products and stock oper
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/product-management-frontend.git
+   git clone https://github.com/jhonatademuner/product-management-frontend.git
    ```
 
 2. Navigate to the project directory:
